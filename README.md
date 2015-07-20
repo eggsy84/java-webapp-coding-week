@@ -29,7 +29,31 @@ to this worthy cause as you enjoy a cup of tea and a slice of cake.
 The remainder of this README provides instructions for the Java coding track. It will provide step by step instructions 
 for getting your laptop set up and ready to go.
 
+**1. Install Git**
+
+[(I already have Git installed skip me to step 2)](#step2Java)
+
+The sample starter code for the coding picnic is stored on [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
+. In order to get a copy of the sample code we need to firstly install [Git version control](https://git-scm.com).
+
+Follow the instructions on the following pages:
+
+Mac [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac)
+Windows [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows)
+Linux [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)
+
+<a name="step2Java"></a>
+**2. Install Java**
+
+
+
+
+
 ## Useful web sites
+
+[Git version control](https://git-scm.com)
+
+[GitHub Project](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
 
 [Manchester Girl Geeks](http://manchester.girlgeekdinners.com)
 

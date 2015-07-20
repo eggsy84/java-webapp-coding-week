@@ -38,9 +38,9 @@ The sample starter code for the coding picnic is stored on [GitHub](https://gith
 
 Follow the instructions on the following pages:
 
-Mac [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac)
-Windows [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows)
-Linux [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)
+Mac [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Mac)  
+Windows [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Windows)  
+Linux [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)  
 
 <a name="step2Java"></a>
 **2. Install Java**

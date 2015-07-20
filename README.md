@@ -29,6 +29,9 @@ to this worthy cause as you enjoy a cup of tea and a slice of cake.
 The remainder of this README provides instructions for the Java coding track. It will provide step by step instructions 
 for getting your laptop set up and ready to go.
 
+If you are having any problems with the instructions below please come along to the coding picnic slightly earlier and 
+we can help you get your laptops ready.
+
 **1. Install Git**
 
 [(I already have Git installed skip me to step 2)](#step2Java)

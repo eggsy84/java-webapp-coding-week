@@ -48,9 +48,31 @@ Linux [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-
 <a name="step2Java"></a>
 **2. Install Java**
 
-Coming soon...
+[(I already have Java installed skip me to step 3)](#step3Ide)
+
+Next step is to install the Java Development Kit (JDK).
+
+**Windows**
+
+- Navigate to [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
+- Click 'Accept Licence Agreement' under the 'Java SE Development Kit 8u51' section.  
+- Click 'jdk-8u51-windows-x64.exe' to download the 64bit Java version.
+- Once the file has downloaded, double click the exe file to begin the installation and follow the instructions on screen
+
+Further details on Windows installation can be found on the [Java website](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html).
+
+**MAC OS**
+
+- Navigate to [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
+- Click 'Accept Licence Agreement' under the 'Java SE Development Kit 8u51' section.  
+- Click 'jdk-8u51-macosx-x64.dmg' to download Java for Mac.
+- Once the file has downloaded, double click the dmg file to begin the installation and follow the instructions on screen.
 
 
+<a name="step3Ide"></a>
+**2. Install IntelliJ**
+
+To be completed....
 
 ## Useful web sites
 

@@ -32,7 +32,7 @@ for getting your laptop set up and ready to go.
 If you are having any problems with the instructions below please come along to the coding picnic slightly earlier and 
 we can help you get your laptops ready.
 
-**1. Install Git**
+###1. Install Git
 
 [(I already have Git installed skip me to step 2)](#step2Java)
 
@@ -46,7 +46,7 @@ Windows [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installin
 Linux [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-on-Linux)  
 
 <a name="step2Java"></a>
-**2. Install Java**
+###2. Install Java
 
 [(I already have Java installed skip me to step 3)](#step3Ide)
 
@@ -69,7 +69,7 @@ Further details on Windows installation can be found on the [Java website](https
 - Once the file has downloaded, double click the dmg file to begin the installation and follow the instructions on screen.
 
 <a name="step3Ide"></a>
-**2. Install IntelliJ**
+###3. Install IntelliJ
 
 To make things a little easier we'll make use of an Integrated Development Environment (IDE) called IntelliJ.
 

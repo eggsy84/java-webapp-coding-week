@@ -74,7 +74,7 @@ Further details on Windows installation can be found on the [Java website](https
 To make things a little easier we'll make use of an Integrated Development Environment (IDE) called IntelliJ.
 
 - First navigate to the [JetBrains website](https://www.jetbrains.com/idea/download/) and download the community edition of IntelliJ  
-- Follow the [installation and set up instructions](https://www.jetbrains.com/idea/download/)  
+- Follow the [installation and set up instructions](https://www.jetbrains.com/idea/documentation/)  
 
 ## Useful web sites
 

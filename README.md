@@ -68,11 +68,13 @@ Further details on Windows installation can be found on the [Java website](https
 - Click 'jdk-8u51-macosx-x64.dmg' to download Java for Mac.
 - Once the file has downloaded, double click the dmg file to begin the installation and follow the instructions on screen.
 
-
 <a name="step3Ide"></a>
 **2. Install IntelliJ**
 
-To be completed....
+To make things a little easier we'll make use of an Integrated Development Environment (IDE) called IntelliJ.
+
+- First navigate to the [JetBrains website](https://www.jetbrains.com/idea/download/) and download the community edition of IntelliJ  
+- Follow the [installation and set up instructions](https://www.jetbrains.com/idea/download/)  
 
 ## Useful web sites
 

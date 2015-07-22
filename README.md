@@ -83,7 +83,8 @@ To make things a little easier we'll make use of an Integrated Development Envir
 
 The final preparation step is to clone the source code from [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic).
 
-- Start IntelliJ
+- Start IntelliJ and you should see a screen similar to figure 1.  
+![IntelliJ Startup](src/main/resources/readme_resources/images/intellij_startup_screen.png "Figure 1")
 
 
 

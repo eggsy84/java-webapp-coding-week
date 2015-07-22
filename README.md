@@ -34,7 +34,7 @@ we can help you get your laptops ready.
 
 ###1. Install Git
 
-[(I already have Git installed skip me to step 2)](#step2Java)
+[(I already have Git installed, skip me to step 2)](#step2Java)
 
 The sample starter code for the coding picnic is stored on [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
 . In order to get a copy of the sample code we need to firstly install [Git version control](https://git-scm.com).
@@ -48,7 +48,7 @@ Linux [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-
 <a name="step2Java"></a>
 ###2. Install Java
 
-[(I already have Java installed skip me to step 3)](#step3Ide)
+[(I already have Java installed, skip me to step 3)](#step3Ide)
 
 Next step is to install the Java Development Kit (JDK).
 
@@ -71,10 +71,21 @@ Further details on Windows installation can be found on the [Java website](https
 <a name="step3Ide"></a>
 ###3. Install IntelliJ
 
+[(I already have installed IntelliJ, skip me to step 3)](#step4Clone)
+
 To make things a little easier we'll make use of an Integrated Development Environment (IDE) called IntelliJ.
 
 - First navigate to the [JetBrains website](https://www.jetbrains.com/idea/download/) and download the community edition of IntelliJ  
 - Follow the [installation and set up instructions](https://www.jetbrains.com/idea/documentation/)  
+
+<a name="step4Clone"></a>
+###4. Clone the tutorial code base
+
+The final preparation step is to clone the source code from [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic).
+
+- Start IntelliJ
+
+
 
 ## Useful web sites
 

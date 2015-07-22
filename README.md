@@ -71,7 +71,7 @@ Further details on Windows installation can be found on the [Java website](https
 <a name="step3Ide"></a>
 ###3. Install IntelliJ
 
-[(I already have installed IntelliJ, skip me to step 3)](#step4Clone)
+[(I already have installed IntelliJ, skip me to step 4)](#step4Clone)
 
 To make things a little easier we'll make use of an Integrated Development Environment (IDE) called IntelliJ.
 
@@ -80,6 +80,8 @@ To make things a little easier we'll make use of an Integrated Development Envir
 
 <a name="step4Clone"></a>
 ###4. Clone the tutorial code base
+
+[(I have already cloned the code, skip me to step 5)](#step5Start)
 
 The final preparation step is to clone the source code from [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic).
 
@@ -94,6 +96,38 @@ Figure 1
   
 Figure 2
 ![IntelliJ clone](src/main/resources/readme_resources/images/intellij_clone_screen.png "Figure 2")  
+
+- Click Clone
+
+<a name="step5Start"></a>
+###5. Start your web application
+
+[(I have already started the web application, skip me to step 6)](#step6Browser)
+
+Once the code has been cloned to your machine, we can do the fun part and start up the application.
+
+- Click the *1 : Project* link shown in the top right of the IntelliJ screen
+
+Figure 3  
+![IntelliJ project link](src/main/resources/readme_resources/images/intellij_project_menu.png "Figure 3")  
+
+- Navigate to the Java file called *Application*
+
+Figure 4  
+![IntelliJ project link](src/main/resources/readme_resources/images/intellij_application_menu.png "Figure 4")
+
+- Right click the file
+- Click *Run Application.main()*
+- You should start to see output of the application starting up.
+
+<a name="step6Browser"></a>
+###6. View your web application
+
+Open up your favourite web browser at go to:
+
+[http://localhost:8080/greeting?name=GirlGeeks](http://localhost:8080/greeting?name=GirlGeeks)
+
+Try replacing 'Girl Geeks' with your name ;)
 
 
 

@@ -88,6 +88,10 @@ Figure 1
 ![IntelliJ Startup](src/main/resources/readme_resources/images/intellij_startup_screen.png "Figure 1")
 
 - Click 'Check out from Version Control' and you should be presented with a screen similar to figure 2.  
+  - **Git Repository URL** https://github.com/ResponseTap/mcr-girlgeeks-code-picnic.git
+  - **Parent Directory** Choose a directory on your machine
+  - **Directory Name** mcr-girlgeeks-code-picnic
+  
 Figure 2
 ![IntelliJ clone](src/main/resources/readme_resources/images/intellij_clone_screen.png "Figure 2")  
 

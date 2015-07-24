@@ -20,7 +20,8 @@ public class PhonecallController {
     }
 
     @RequestMapping(value="/phonecall", method = RequestMethod.POST)
-    public String showPhoneCallPage(@ModelAttribute PhonecallForm phonecallForm, Model model) {
-        return "phonecall";
+    public String handleSubmitPhonecallPage(@ModelAttribute PhonecallForm phonecallForm, Model model) {
+        model.addAttribute("phonecallForm", phonecallForm);
+        return "result";
     }
 }

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Phonecall Form Submission</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <p>Thanks you sent:</p>
+        <p th:text="'Number: ' + ${phonecallForm.number}" />
+        <p th:text="'Text: ' + ${phonecallForm.text}" />
+
+    </body>
+
+</html>

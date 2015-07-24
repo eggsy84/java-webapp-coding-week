@@ -1,22 +1,25 @@
 <!DOCTYPE HTML>
 <html>
+    <head>
+        <title>Phonecall Form</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
 
-    <form action="/phonecall" method="post">
-        <table>
-            <tr>
-                <td>My number: </td>
-                <td><input type="text" id="phonenumber" name="phonenumber" /></td>
-            </tr>
-            <tr>
-                <td>Message: </td>
-                <td><input type="text" id="message" name="message" /></td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" value="Call me" />
-                </td>
-            </tr>
-        </table>
-    </form>
+    <body>
+
+        <form action="/phonecall" method="post" class="form-inline">
+            <div class="form-group">
+                <label for="number">My number</label>
+                <input type="text" class="form-control" id="number" name="number" placeholder="07712345678" />
+            </div>
+
+            <div class="form-group">
+                <label for="text">Message</label>
+                <input type="text" class="form-control" id="text" name="text" placeholder="Hi there" />
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </body>
 
 </html>

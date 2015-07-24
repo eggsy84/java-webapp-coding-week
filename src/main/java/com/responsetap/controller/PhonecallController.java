@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URL;
-import java.net.URLConnection;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.*;
 
 
 @Controller
@@ -36,15 +36,20 @@ public class PhonecallController {
         else {
             model.addAttribute("phonecallForm", phonecallForm);
 
-            String urlString = "http://pbx.responsetap.com/cgi-bin/geek.pl?text={text}&token=VYMWwWBDrEAJU6WtWsHQY2Qe&number={number}";
-            urlString = urlString.replace("{text}", phonecallForm.getText());
-            urlString = urlString.replace("{number}", phonecallForm.getNumber());
+
 
             try {
-                URL myURL = new URL(urlString);
-                URLConnection myURLConnection = myURL.openConnection();
-                myURLConnection.setDoOutput(true);
-                myURLConnection.connect();
+
+                String urlString = "http://pbx.responsetap.com/cgi-bin/geek.pl?text={text}&number={number}";
+                urlString = urlString.replace("{text}", URLEncoder.encode(phonecallForm.getText(), "UTF-8"));
+                urlString = urlString.replace("{number}", URLEncoder.encode(phonecallForm.getNumber(), "UTF-8"));
+
+                InputStream response = new URL(urlString).openStream();
+                try (BufferedReader reader = new BufferedReader(new InputStreamReader(response))) {
+                    for (String line; (line = reader.readLine()) != null;) {
+                        System.out.println(line);
+                    }
+                }
             }
             catch (MalformedURLException e) {
                 System.err.println(e.getMessage());

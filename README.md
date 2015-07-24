@@ -141,3 +141,7 @@ Try replacing 'Girl Geeks' with your name ;)
 
 [ResponseTap](http://responsetap.com)
 
+[Spring form submission guide](http://spring.io/guides/gs/handling-form-submission/)
+
+[Spring validation guide](http://spring.io/guides/gs/validating-form-input/)
+

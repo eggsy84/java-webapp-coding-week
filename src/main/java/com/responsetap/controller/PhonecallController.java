@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URL;
+import java.net.URLConnection;
 
 
 @Controller
@@ -30,6 +35,26 @@ public class PhonecallController {
         }
         else {
             model.addAttribute("phonecallForm", phonecallForm);
+
+            String urlString = "http://pbx.responsetap.com/cgi-bin/geek.pl?text={text}&token=VYMWwWBDrEAJU6WtWsHQY2Qe&number={number}";
+            urlString = urlString.replace("{text}", phonecallForm.getText());
+            urlString = urlString.replace("{number}", phonecallForm.getNumber());
+
+            try {
+                URL myURL = new URL(urlString);
+                URLConnection myURLConnection = myURL.openConnection();
+                myURLConnection.setDoOutput(true);
+                myURLConnection.connect();
+            }
+            catch (MalformedURLException e) {
+                System.err.println(e.getMessage());
+                System.err.println(e.fillInStackTrace());
+            }
+            catch (IOException e) {
+                System.err.println(e.getMessage());
+                System.err.println(e.fillInStackTrace());
+            }
+
             return "result";
         }
     }

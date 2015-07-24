@@ -7,16 +7,22 @@
 
     <body>
 
-        <form action="/phonecall" method="post" class="form-inline" >
+        <form action="#" th:action="@{/phonecall}" th:object="${phonecallForm}" method="post" class="form-inline" >
             <div class="form-group">
                 <label for="number">My number</label>
-                <input type="text" class="form-control" id="number" name="number" placeholder="07712345678" />
+                <input id="number" type="text" class="form-control" th:field="*{number}" placeholder="07712345678" />
+                <span th:if="${#fields.hasErrors('number')}" th:errors="*{number}">Number error</span>
             </div>
+
+            <br />
 
             <div class="form-group">
                 <label for="text">Message</label>
-                <input type="text" class="form-control" id="text" name="text" placeholder="Hi there" />
+                <input id="text" type="text" class="form-control" th:field="*{text}" name="text" placeholder="Hi there" />
+                <span th:if="${#fields.hasErrors('text')}" th:errors="*{text}">Text error</span>
             </div>
+
+            <br />
 
             <button type="submit" class="btn btn-default">Submit</button>
         </form>

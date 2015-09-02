@@ -11,7 +11,7 @@ we can help you get your laptops ready.
 
 [(I already have Git installed, skip me to step 2)](#step2Java)
 
-The sample starter code for the coding picnic is stored on [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
+The sample starter code for the event is stored on [GitHub](https://github.com/eggsy84/java-webapp-coding-week)
 . In order to get a copy of the sample code we need to firstly install [Git version control](https://git-scm.com).
 
 Follow the instructions on the following pages:
@@ -58,16 +58,16 @@ To make things a little easier we'll make use of an Integrated Development Envir
 
 [(I have already cloned the code, skip me to step 5)](#step5Start)
 
-The final preparation step is to clone the source code from [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic).
+The final preparation step is to clone the source code from [GitHub](https://github.com/eggsy84/java-webapp-coding-week).
 
 - Start IntelliJ and you should see a screen similar to figure 1 below.
 Figure 1
 ![IntelliJ Startup](src/main/resources/readme_resources/images/intellij_startup_screen.png "Figure 1")
 
 - Click 'Check out from Version Control' and you should be presented with a screen similar to figure 2.  
-  - **Git Repository URL** https://github.com/ResponseTap/mcr-girlgeeks-code-picnic.git
+  - **Git Repository URL** https://github.com/eggsy84/java-webapp-coding-week.git
   - **Parent Directory** Choose a directory on your machine
-  - **Directory Name** mcr-girlgeeks-code-picnic
+  - **Directory Name** java-webapp-coding-week
   
 Figure 2
 ![IntelliJ clone](src/main/resources/readme_resources/images/intellij_clone_screen.png "Figure 2")  
@@ -100,9 +100,9 @@ Figure 4
 
 Open up your favourite web browser at go to:
 
-[http://localhost:8080/greeting?name=GirlGeeks](http://localhost:8080/greeting?name=GirlGeeks)
+[http://localhost:8080/greeting?name=java](http://localhost:8080/greeting?name=java)
 
-Try replacing 'Girl Geeks' with your name ;)
+Try replacing 'java' with your name ;)
 
 
 
@@ -110,9 +110,9 @@ Try replacing 'Girl Geeks' with your name ;)
 
 [Git version control](https://git-scm.com)
 
-[GitHub Project](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
+[GitHub Project](https://github.com/eggsy84/java-webapp-coding-week)
 
-[Manchester Girl Geeks](http://manchester.girlgeekdinners.com)
+[CodeUp Manchester](http://codeupmcr.co.uk)
 
 [ResponseTap](http://responsetap.com)
 

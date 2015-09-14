@@ -1,33 +1,8 @@
-# mcr-girlgeeks-code-picnic
-
-## Welcome
-
-On behalf of [Manchester Girl Geeks](http://manchester.girlgeekdinners.com) and 
-[ResponseTap](http://manchester.girlgeekdinners.com), welcome to the Coding Picnic!
-
-July's [Girl Geek Tea Party](http://manchester.girlgeekdinners.com) will be at our lovely sponsor 
-[ResponseTap's](http://responsetap.com) offices, and as it's officially summer we'll 
-be expanding the Tea Party theme to become a Coding Picnic (indoors so we don't have to worry about the weather!) with 
-the choice to learn either Python or Java in our afternoon workshop. The session is suitable for complete beginners or 
-those with more experience who want to develop their skills. So even if you've never done any coding before, our 
-workshop will show you the basics and get you started using guides such as Codecademy. There will also be chance to 
-improve your skills and see how coding can be used, with practical exercises including making a calculator, to put your 
-skills to practice.
-
-There will be ResponseTap staff on hand to guide you through the exercises and share their expertise and knowledge on 
-how they use code such as Java in their work.
-
-You'll need to bring your own laptop along, but if you don't have one please get in touch, as we may be able to 
-arrange for you to borrow one.
-
-As always, there will be plenty of tea, coffee and cake, and if you're feeling inspired to bake, why not bring along 
-some of your own home-baked creations. ResponseTap are supporting Cancer Research UK, so we're encouraging donations 
-to this worthy cause as you enjoy a cup of tea and a slice of cake.
+# National Coding Week
 
 ## Tutorial
 
-The remainder of this README provides instructions for the Java coding track. It will provide step by step instructions 
-for getting your laptop set up and ready to go.
+This README provides instructions for the Java coding track as part of National Coding Week. It will provide step by step instructions for getting your laptop set up and ready to go.
 
 If you are having any problems with the instructions below please come along to the coding picnic slightly earlier and 
 we can help you get your laptops ready.
@@ -36,7 +11,7 @@ we can help you get your laptops ready.
 
 [(I already have Git installed, skip me to step 2)](#step2Java)
 
-The sample starter code for the coding picnic is stored on [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
+The sample starter code for the event is stored on [GitHub](https://github.com/eggsy84/java-webapp-coding-week)
 . In order to get a copy of the sample code we need to firstly install [Git version control](https://git-scm.com).
 
 Follow the instructions on the following pages:
@@ -83,16 +58,16 @@ To make things a little easier we'll make use of an Integrated Development Envir
 
 [(I have already cloned the code, skip me to step 5)](#step5Start)
 
-The final preparation step is to clone the source code from [GitHub](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic).
+The final preparation step is to clone the source code from [GitHub](https://github.com/eggsy84/java-webapp-coding-week).
 
 - Start IntelliJ and you should see a screen similar to figure 1 below.
 Figure 1
 ![IntelliJ Startup](src/main/resources/readme_resources/images/intellij_startup_screen.png "Figure 1")
 
 - Click 'Check out from Version Control' and you should be presented with a screen similar to figure 2.  
-  - **Git Repository URL** https://github.com/ResponseTap/mcr-girlgeeks-code-picnic.git
+  - **Git Repository URL** https://github.com/eggsy84/java-webapp-coding-week.git
   - **Parent Directory** Choose a directory on your machine
-  - **Directory Name** mcr-girlgeeks-code-picnic
+  - **Directory Name** java-webapp-coding-week
   
 Figure 2
 ![IntelliJ clone](src/main/resources/readme_resources/images/intellij_clone_screen.png "Figure 2")  
@@ -125,9 +100,9 @@ Figure 4
 
 Open up your favourite web browser at go to:
 
-[http://localhost:8080/greeting?name=GirlGeeks](http://localhost:8080/greeting?name=GirlGeeks)
+[http://localhost:8080/greeting?name=java](http://localhost:8080/greeting?name=java)
 
-Try replacing 'Girl Geeks' with your name ;)
+Try replacing 'java' with your name ;)
 
 
 
@@ -135,9 +110,9 @@ Try replacing 'Girl Geeks' with your name ;)
 
 [Git version control](https://git-scm.com)
 
-[GitHub Project](https://github.com/ResponseTap/mcr-girlgeeks-code-picnic)
+[GitHub Project](https://github.com/eggsy84/java-webapp-coding-week)
 
-[Manchester Girl Geeks](http://manchester.girlgeekdinners.com)
+[CodeUp Manchester](http://codeupmcr.co.uk)
 
 [ResponseTap](http://responsetap.com)
 

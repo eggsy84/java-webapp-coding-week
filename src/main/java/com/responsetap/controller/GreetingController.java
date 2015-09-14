@@ -11,7 +11,15 @@ public class GreetingController {
 
     @RequestMapping(method= RequestMethod.GET, value="/greeting")
     public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
+
+        if( name.equalsIgnoreCase("John")) {
+
+            model.addAttribute("messageOnScreen", "Java Ninja!");
+        }
+        else {
+            model.addAttribute("messageOnScreen", "Java Novice!");
+        }
+
         return "greeting";
     }
 

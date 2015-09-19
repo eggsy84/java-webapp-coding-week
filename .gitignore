@@ -1,7 +1,7 @@
 *.class
 target
 .idea
-mcr-girlgeeks-code-picnic.iml
+*.iml
 
 # Package Files #
 *.jar
